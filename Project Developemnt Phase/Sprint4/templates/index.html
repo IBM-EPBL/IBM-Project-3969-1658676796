@@ -13,15 +13,15 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
 </head>
-<body>
+<body style = "background-color: rgba(127, 230, 196, 0.826);">
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="./img/logo6.jpg"></a>
+		<!-- <a class="navbar-brand" href="#"><img src="./img/logo6.jpg"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
-		</button>
+		</button> -->
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
@@ -35,17 +35,14 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Team</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Connect</a>
-				</li>
+				</li>				
 			</ul>
 		</div>
 	</div>
 </nav>
 
 <!--- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+<!-- <div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
@@ -72,7 +69,7 @@
 			<img class="image" src="./background3.png">
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--- Jumbotron -->
 <div class="container-fluid" data-aos="fade-up"
@@ -139,14 +136,17 @@
 		data-aos-duration="1000">
 	<div class="row padding">
 		<div class="col-md-12 col-lg-6">
-			<h2>If you build it...</h2>
-			<p>The columns will automatically stack on each other when
-				the screen is less than 576px wide.</p>
-			<p>Resize the browserwindow to see the effect. Responsive web
-				design has become more important as the amount of mobile traffic now
-				accounts for more than half of total internet traffic.</p>
-			<p>It can also display the web page differently depending on the
-				screen size or viewing device.</p>
+			<h2>AI Based Discourse for Banking Industry...</h2>
+
+			<h5><p>In this project, we will be building a chatbot using Watson's assistant. 
+				This chat will have the following capabilities: 	
+			<br>
+			<br>
+			<br>
+			<p>The Bot should be able to answer queries regarding net banking.</p>
+			<p>The Bot should be able to guide a customer to create a bank account.</p>
+			<p>The Bot should be able to answer loan queries.</p>
+			<p>The Bot should be able to answer general banking queries.</p></h5>
 				<br>
 				<a href="#" class="btn btn-primary">Learn More</a>
 		</div>
@@ -176,11 +176,11 @@
 	<div class="row padding">
 		<div class="col-md-12">
 			<div class="card">
-				<img class="card-img-top" src="./team1.png">
+				
 				<div class="card-body">
 					<h4 class="card-title"> G. Joshika</h4>
-					<p class="card-text">G. Joshika is an Interent
-						entrepreneur with almost 20 years of experience.
+					<p class="card-text">G. Joshika is an UI/UX designer
+						entrepreneur with almost 3 years of experience.
 					</p>
 					<a href="#" class="btn btn-outline-secondary">See Profile</a>
 				</div>
@@ -188,21 +188,21 @@
 		</div>
 		<div class="col-md-12">
 			<div class="card">
-				<img class="card-img-top" src="./team2.png">
+				
 				<div class="card-body">
 					<h4 class="card-title">Mrithulla Padmanabhan</h4>
-					<p class="card-text">Mrithulla Padmanabhan is a designer with a almost 10 years
-					of digital design experience.</p>
+					<p class="card-text">Mrithulla Padmanabhan is a coder with a almost 2 years
+					of experience.</p>
 					<a href="#" class="btn btn-outline-secondary">See Profile</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-12">
 			<div class="card">
-				<img class="card-img-top" src="./team3.png">
+				
 				<div class="card-body">
 					<h4 class="card-title">Nandhini</h4>
-					<p class="card-text">Nandhini is an developer with over 5 years
+					<p class="card-text">Nandhini is an developer with over 2 years
 					of web development experience.</p>
 					<a href="#" class="btn btn-outline-secondary">See Profile</a>
 				</div>
@@ -210,11 +210,9 @@
 		</div>
 		<div class="col-md-12">
 			<div class="card">
-				<img class="card-img-top" src="./team3.png">
 				<div class="card-body">
 					<h4 class="card-title">Rasitha</h4>
-					<p class="card-text">Rasitha is an developer with over 5 years
-					of web development experience.</p>
+					<p class="card-text">Rasitha is an aspirant fresher with enthusiastic minds.</p>
 					<a href="#" class="btn btn-outline-secondary">See Profile</a>
 				</div>
 			</div>
@@ -222,31 +220,14 @@
 	</div>
 </div>
 
-<!--- Two Column Section -->
+<!-- - Two Column Section
 <div class="container-fluid padding" data-aos="fade-up"
 		data-aos-offset="200"
 		data-aos-delay="50"
 		data-aos-duration="1000">
-	<div class="row padding">
-		<div class="col-md-12 col-lg-6">
-			<h2>Our Philosophy</h2>
-			<p>We know that greatness in a disruptive era requires bold
-				ambition, curious talent and a culture that believes we're
-			    smarter together.</p>
-			<p>We approach every challenge hostically, with best-in-class
-				expertise in data, creativity, media, technology, search, social and
-				more. We call this Alchemy. It has the power to build our clients'
-				brands and transform their business. And white it may seem like
-				magic, we've got it down to a science.
-			</p>
-
-		</div>
-		<div class="col-lg-6">
-			<img src="./bootstrap2.png" class="img-fluid">
-		</div>
-	</div>
+	
 	<hr class="my-4">
-</div>
+</div> -->
 
 <!--- Connect -->
 <div class="container-fluid padding">
